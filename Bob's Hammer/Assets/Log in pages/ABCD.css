@@ -1,0 +1,20 @@
+# Apply styles to the textbox
+textbox.setStyleSheet('''
+    QLineEdit {
+        background-color: #F2F2F2;
+        border: 1px solid #CCCCCC;
+        border-radius: 5px;
+        color: #333333;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    QLineEdit:focus {
+        border-color: #4C9AFF;
+        box-shadow: 0 0 5px rgba(76, 154, 255, 0.5);
+    }
+
+    QLineEdit:hover {
+        background-color: #E5E5E5;
+    }
+''')
